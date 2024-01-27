@@ -1,8 +1,23 @@
+# Setting Up the Project:
+**1. Clone the repository**
+```
+git clone https://github.com/Menthhh/typescript-project-with-unit-test.git
 
+cd typescript-project-with-unit-test
+```
 
-```html
-<clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
-  Copy path
-</clipboard-copy>
-<div id="blob-path">src/index.js</div>
+**2. Install Dependencies**
+```
+npm install
+```
+
+# Running the Code and Unit Tests
+**1. Run the TypeScript Compiler**
+```
+tsc
+```
+
+**2. Run Unit Tests**
+```
+npm test
 ```
